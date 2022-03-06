@@ -1,0 +1,63 @@
+label, select, option, span, p{
+  font-weight: bold;
+}
+.book{
+  width: 50%;
+  padding: 20px;
+  margin-left: 25%;
+  margin-top: 10px;
+}
+.From-To, .Trip-Detail, .People{
+  display:flex;
+}
+.from, .to {
+  width: 400px;
+}
+.from, .to, .Type, .Depart, .Arrive, .Ad, .child, .baby{
+  margin-right: 40px;
+  padding-top: 10px;
+}
+.Type {
+  font-size: 1rem;
+}
+input[type=text], select, input[type=number] {
+  width: 100%;
+  padding: 10px 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=radio]{
+  font-size: 1.2rem;
+  padding: 16px 20px;
+  border:none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+button {
+  width: 100%;
+  background-color: skyblue;
+  color: white;
+  padding: 10px 10px;
+  margin: 20px 0;
+  border-radius: 4px;
+  cursor: pointer;
+ }
+ button:valid {
+  background-color: skyblue;
+ }
+ table{
+  width: 54%;
+  padding: 10px;
+  margin-left: 25%;
+  margin-top: 20px;
+ }
+  th  {
+   background-color: skyblue;
+   color: white;
+ }
+
+
